@@ -18,6 +18,7 @@ def send_mail():
     msg = f"Subject: {subject}\n\n{body}"
     
     server.sendmail(
+        'cakeomania2.by.anushka@gmail.com',
         'anushkakamalja@gmail.com',
         msg
      
